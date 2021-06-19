@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Autora: Yolanda Benítez 
+# Author: Yolanda Benítez 
 # Template script to build the fastq from the lab data and obtain the Bam files (to be analyzed with CrispRVariants).
 
 fastq_list=$(ls *[0-9].fastq | cut -f 1 -d ".")
